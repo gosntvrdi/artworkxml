@@ -18,5 +18,5 @@ def artworkXML():
 
 
 scheduler = BlockingScheduler()
-scheduler.add_job(artworkXML, 'interval', seconds=6, max_instances=1)
+scheduler.add_job(artworkXML, 'interval', seconds=10, max_instances=1)
 scheduler.start()
